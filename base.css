@@ -160,9 +160,9 @@ ul[id^="folder-items-"] {
 }
 
 ul[data-list-id='guildsnav'] [class^="pill-"] span {
-	width: 10px;
+	width: 20px;
 	margin-left: -5px;
-	border-radius: 20px;
+	border-radius: 30px;
 }
 
 [data-list-id='guildsnav'] [class^="pill-"] span[style^="opacity: 1; height: 40"] {
