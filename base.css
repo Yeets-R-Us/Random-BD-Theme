@@ -151,7 +151,7 @@ ul[data-list-id='guildsnav']>div[dir] {
 
 ul[data-list-id='guildsnav'] [class^="pill-"],
 ul[data-list-id='guildsnav'] [class^="pill-"]>div {
-	height: 40px !important;
+	height: 100px !important;
 }
 
 ul[data-list-id='guildsnav'] div[style*="height: 56"],
