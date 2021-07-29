@@ -130,7 +130,7 @@ div[class*="typeWindows-"]::after {
 }
 
 
-/* Guilds */
+/* Guilds
 
 ul[data-list-id='guildsnav'] {
 	--background-secondary: var(--background-solid);
@@ -212,7 +212,7 @@ div[data-list-item-id="guildsnav___create-join-button"]:hover,
 div[data-list-item-id="guildsnav___guild-discover-button"]:hover {
 	opacity: 1;
 }
-
+ */
 
 /* Sidebar */
 
