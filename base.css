@@ -130,58 +130,6 @@ div[class*="typeWindows-"]::after {
 }
 
 
-
-/* Sidebar */
-
-.platform-win [class^="sidebar-"] {
-	border-radius: 0;
-}
-
-div[class^="sidebar-"] nav,
-#private-channels {
-	background-color: transparent;
-	--background-tertiary: rgba(var(--black), 0.35);
-}
-
-div[class^="sidebar-"]>nav>div[class^="searchBar"] {
-	height: 54px;
-}
-
-div[id^="members-"] {
-	--background-secondary: rgba(var(--black), 0.4);
-	--background-modifier-hover: rgba(var(--white), 0.07);
-	--background-modifier-active: var(--background-modifier-hover);
-	--background-modifier-selected: rgba(var(--white), 0.07);
-}
-
-div[id^="members-"]>div {
-	background-color: transparent;
-}
-
-div[id^="members-"] [class*="placeholder"] {
-	--backgorund-primary: var(--text-normal);
-}
-
-div[class^='nowPlayingColumn'] {
-	--background-secondary: transparent;
-	--background-primary: rgba(var(--black), 0.5);
-	--background-modifier-hover: rgba(var(--white), 0.075);
-}
-
-#channels div[class^="unread-"] {
-	--interactive-active: rgba(var(--accent), 1);
-}
-
-
-/* Sidebar Header */
-
-div[class*='clickable-'][aria-expanded]>header {
-	height: 54px;
-	--background-accent: rgba(var(--accent), 1);
-	--background-modifier-hover: rgba(var(--black), 0.25);
-}
-
-
 /* Outer containers */
 
 #app-mount {
